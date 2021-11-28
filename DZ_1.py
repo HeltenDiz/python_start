@@ -47,9 +47,9 @@ total = income - costs
 if total > 0:
     print(f'Мы работает в плюс, поздравляю! Прибыль = {total}')
     efficiency = total / income
-    print(f"Рентабельность выручки = {efficiency:2f}")
+    print(f"Рентабельность выручки = {efficiency:.2f}")
     staff = int(input('Введите кол-во сотрудников в компании - '))
-    print(f"Показатель прибыли на одного сотрудника = {total / staff:2f}")
+    print(f"Показатель прибыли на одного сотрудника = {total / staff:.2f}")
 elif total < 0:
     print(f"Мы работает в минус. Убыток = {total}")
 else:
